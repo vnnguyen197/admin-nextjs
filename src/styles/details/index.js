@@ -4,6 +4,7 @@ export const Info = styled.div`
   width: 100%;
   margin-top: 10px;
   height: 100%;
+
 `;
 export const StyleImage = styled.div`
   display: flex;
@@ -54,8 +55,10 @@ export const Account = styled.div`
   transition: all 600ms ease-in-out;
   margin: 5px 0;
   border-radius: 20px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
   &:hover {
-    background-color: orange;
+    background: linear-gradient(145deg, #000, #ffff);
+    color: #fff;
     border-top: 0;
   }
 `;
@@ -83,5 +86,3 @@ export const ButtonImg = styled.button`
     transform: scale(1.1);
   }
 `;
-
-

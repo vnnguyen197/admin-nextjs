@@ -25,7 +25,7 @@ function DetailUsers() {
             Quản lý người dùng
           </TextAcc>
         </Account>
-        <Account onClick={() => router.push('/users')}>
+        <Account onClick={() => router.push('/')}>
           <LogoutIcon style={{ color: 'red' }} />
           <TextAcc>
             Đăng xuất

@@ -38,7 +38,6 @@ export const StyleLogin = styled.div`
   justify-content: center;
   border-radius: 50px;
   background: #e0e0e0;
-  box-shadow:  20px 20px 80px #bebebe;
 `;
 
 export const LoginDiv = styled.div`
@@ -123,9 +122,9 @@ export const Button = styled.button`
   transition: all 500ms ease-in-out;
   border-radius: 50px;
   background: linear-gradient(145deg, #e6e6e6, #ffffff);
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   border: 1px solid #fff;
   &:hover {
-    color: blue;
+    color: #fff;
+    background: linear-gradient(145deg, #000, #ffffff);
   }
 `;
