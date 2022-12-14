@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const ContentRight = styled.div`
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center;
   background: #e0e0e0;
@@ -17,7 +17,7 @@ export const ContentRight = styled.div`
 `;
 
 export const ContentLeft = styled.div`
-  width: 40%;
+  width: 50%;
   background: #e0e0e0;
 `;
 

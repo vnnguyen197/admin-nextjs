@@ -4,6 +4,7 @@ export const Info = styled.div`
   width: 100%;
   margin-top: 10px;
   height: 100%;
+  /* background: #e0e0e0; */
 
 `;
 export const StyleImage = styled.div`
