@@ -1,7 +1,6 @@
 import * as React from "react";
 import { DataGrid } from "@mui/x-data-grid";
-import DeleteIcon from '@mui/icons-material/Delete';
-console.log('DeleteIcon', DeleteIcon)
+
 const columns = [
   { field: "id", headerName: "ID", width: 70},
   { field: "email", headerName: "Email", width: 250 },
