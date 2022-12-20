@@ -48,3 +48,26 @@ export const TextInfo = styled.div`
   line-height: 1.0625rem;
   color: #888;
 `;
+
+export const AddUser = styled.div`
+display: flex;
+gap: 5px;
+  width: 170px;
+  color: #ffffff;
+  background-color: blue;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px;
+  font-weight: bold;
+  transition: all 500ms ease-in-out;
+  &:hover {
+    color: blue;
+    background-color: #ffffff;
+    border: 1px solid orange;
+  }
+`

@@ -3,7 +3,6 @@ import PersonIcon from '@mui/icons-material/Person'
 import Avatar from '@mui/material/Avatar'
 import { Info, StyleImage, ButtonImg, ContentBottom, TextAcc, Account, EditProfile, Name } from '../../styles/details/index';
 import LogoutIcon from '@mui/icons-material/Logout';
-import { Head } from 'next/head';
 
 function DetailUsers() {
   const router = useRouter()
@@ -12,7 +11,7 @@ function DetailUsers() {
     <Info>
       <StyleImage>
         <ButtonImg>
-          <Avatar sx={{ width: 70, height: 70 }} />
+          <Avatar sx={{ width: 50, height: 50 }} />
         </ButtonImg>
         <EditProfile>
           <Name>admin</Name>

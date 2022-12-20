@@ -18,7 +18,7 @@ export const Bolder = styled.div``;
 export const Name = styled.span`
   font-weight: bold;
   color: #000000;
-  font-size: 22px;
+  font-size: 20px;
   white-space: nowrap;
   width: 120px;
   overflow: hidden;
