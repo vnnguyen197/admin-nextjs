@@ -20,7 +20,7 @@ import { useRouter } from 'next/router'
 import { Alert, Snackbar, Stack } from '@mui/material'
 import Loading from '../Loading'
 import userAPI from '../../services/getListUsers';
-import { registerSchema } from '../../constants'
+import { registerSchema } from '../../constants/registerSchema';
 
 function AddUsers(props) {
     const [showPass, setShowPass] = useState(false)

@@ -28,11 +28,11 @@ export const ContentTable = styled.div`
 `;
 
 export const StyleTable = styled.div`
-    margin: 45px 15px;
+    margin: 0px 30px;
 `;
 export const StyleTitle = styled.div`
   border-bottom: 0.0625rem solid #efefef;
-  padding: 10px 0;
+  padding: 5px 0;
   margin-left: 30px;
 `;
 
@@ -41,12 +41,17 @@ export const Title = styled.h1`
   font-weight: 700;
   line-height: 1.5rem;
   color: rgb(51, 51, 51);
+  margin: 0px !important;
+  padding: 0;
+  
+  
 `;
 
 export const TextInfo = styled.div`
   font-size: 14px;
   line-height: 1.0625rem;
   color: #888;
+  margin-top: 2px;  
 `;
 
 export const AddUser = styled.div`
