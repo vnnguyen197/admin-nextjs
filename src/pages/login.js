@@ -15,10 +15,12 @@ import {
   SpanEye,
   Button,
   Error,
+  StyleImg
 } from "../styles/login/index";
 import { useRouter } from "next/router";
 import { Alert, Snackbar, Stack } from '@mui/material'
 import Loading from "../components/Loading";
+import bgr from '../assets/admin.png';
 
 const database = [
   {
@@ -88,6 +90,11 @@ function Login() {
       {loading ? <Loading /> : null}
       <ContentRight>
         <h1 className="typing">Welcome to Order Best Food !!!</h1>
+        <div>
+          <h2 className="admin">Hi everyone!</h2>
+          <h2 className="admin">I'm Admin</h2>
+        </div>
+        <StyleImg src={bgr.src} width={800} height={800} />
       </ContentRight>
       <ContentLeft>
         <FormLogin onSubmit={handleSubmit}>
